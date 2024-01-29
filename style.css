@@ -1,0 +1,232 @@
+body{
+    font-family: Tahoma;
+    letter-spacing: 1px;
+  background-color: #9101c6;
+  height: 150%;}
+.parallax {
+  /* The image used */
+  background-image: url("imgs/cyb3.webp");
+
+  /* Set a specific height */
+  min-height: 50px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div3{
+      border: 1px solid #ff00f7;
+  background-color: #d01b51;
+  border-radius: 55px;
+
+margin: 10px;
+border: 1px solid lightgray;
+}
+
+h3{
+    font-weight: heavy;
+  color: black;
+  font-size: 30px;
+}
+h1, h2{
+    font-weight: normal;
+  color: white;
+  font-size: 30px;
+}
+#container2{
+  padding: 30px 0px;
+    height: 50px;
+}
+.navbar-brand {
+ font-size: 30px;
+  font-weight: bold;
+}
+
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid #ff00f7;
+  background-color: #d01b51;
+}
+
+#page-banner{
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+
+
+}
+
+#page-banner h1, #page-banner p, #page-banner h3 {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#page-banner input{
+    width: 90%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #444;
+}
+
+#book-list, #add-book, #tabbed-content{
+    margin: 30px;
+  color: white;
+}
+
+#book-list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#book-list li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+#book-list li:hover{
+    border-color: #9361bf;
+}
+
+.delete{
+    float: right;
+    background: #9361bf;
+    padding: 6px;
+    background: #333;
+  color:white;
+}
+
+#add-book{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-book input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 300px;
+    float: left;
+}
+
+#add-book button{
+    border: 1px solid #9361bf;
+    background: #9361bf;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 100px;
+    float: left;
+    margin: 20px 0;
+    border-left: 0;
+    color: white;
+}
+
+#add-book:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#add-book #hide{
+  width: 30px;
+}
+#add-book label{
+  line-height: 52px;
+}
+
+
+.delete:hover{
+
+}
+
+
+.row2{
+  height:200px;
+
+   
+  border-radius: 25px;
+margin-top: 10px;
+}
+
+h5 {
+  font-size:100px;
+    -webkit-text-stroke: 2px black;
+
+  font-weight: bold;
+  color: white;
+}
+
+h4 {
+  font-size:15px;
+    -webkit-text-stroke: 2px black;
+
+  font-weight: bold;
+  color: white;
+}
+p7 {  font-size: 25px;
+    color: #dec38b;
+    font-family: Copperplate;
+      -webkit-text-stroke: .25px black;
+      margin: 0 50px;
+  }
+p1 {
+  font-size: 45px;
+      -webkit-text-stroke: 1px black;
+  font-weight: bold;
+  color: white;
+}
+p2 {
+  font-size: 15px;
+      -webkit-text-stroke: .2px black;
+  font-weight: bold;
+  color: white;
+    margin: 0 50px;
+}
+
+.img7 {
+  width:150px;
+  height:150px;
+}
+.row4{
+  background-color:#284B63;
+  border-radius: 25px;
+margin-top: 10px;
+	}
+/* OVERRIDE BOOTSTRAP MARGIN */
+.row {
+  
+    margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+
+.img-fluid {
+	width: 100%;
+	max-height: 95%
+}
